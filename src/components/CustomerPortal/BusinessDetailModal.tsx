@@ -332,7 +332,7 @@ export const BusinessDetailModal: React.FC<BusinessDetailModalProps> = ({
               <div className="flex justify-between text-slate-500 text-[11px]">
                 <span className="flex items-center">
                   <ShieldCheck className="w-3 h-3 mr-1 text-indigo-600" />
-                  AutoBook Secure Platform Fee (2.5%)
+                  Samuel_AI Secure Platform Fee (2.5%)
                 </span>
                 <span>${platformFee.toFixed(2)}</span>
               </div>

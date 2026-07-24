@@ -300,6 +300,6 @@ export const INITIAL_MESSAGES: ChatMessage[] = [
     sender: 'ai',
     text: 'Hello Sarah! ✨ Yes, we have openings this Friday at 2:00 PM with Marcus and 3:30 PM with Elena. Would you like me to reserve one of these slots for you?',
     timestamp: '10:14 AM',
-    customerName: 'AutoBook AI'
+    customerName: 'Samuel_AI AI'
   }
 ];

@@ -145,7 +145,7 @@ export default function App() {
         sender: 'ai',
         text: aiReplyText,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-        customerName: 'AutoBook AI Assistant',
+        customerName: 'Samuel_AI AI Assistant',
       };
 
       setMessages((prev) => [...prev, aiMsg]);

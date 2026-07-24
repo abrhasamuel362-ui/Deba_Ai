@@ -180,7 +180,7 @@ export const MyBookingsView: React.FC<MyBookingsViewProps> = ({
             </div>
 
             <div className="bg-slate-50 p-3 rounded-xl text-[11px] text-slate-600 text-center border border-slate-200">
-              Payment processed securely via AutoBook Pay Gateway.
+              Payment processed securely via Samuel_AI Pay Gateway.
             </div>
 
             <button

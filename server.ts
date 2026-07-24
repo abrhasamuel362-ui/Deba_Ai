@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
@@ -11,7 +12,7 @@ const ai = new GoogleGenAI({
   apiKey: apiKey || '',
   httpOptions: {
     headers: {
-      'User-Agent': 'aistudio-build',
+      'User-Agent': 'Samuel_Ai',
     },
   },
 });
@@ -311,7 +312,7 @@ Example:
               category: 'efficiency',
               description: 'Sending 24-hour advance WhatsApp reminders reduces no-shows from 12% to under 2%.',
               impact: 'Save 3+ hours/week manual texting',
-              actionable: 'Enable automatic WhatsApp dispatch in AutoBook settings.'
+              actionable: 'Enable automatic WhatsApp dispatch in Samuel_AI settings.'
             },
             {
               title: 'Re-Engage Lapsed VIP Clients',
@@ -376,7 +377,7 @@ Return a JSON array of 3 objects under key "insights". Each object must contain:
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`AutoBook Full-Stack Server running on http://0.0.0.0:${PORT}`);
+    console.log(`Samuel_AI Full-Stack Server running on http://0.0.0.0:${PORT}`);
   });
 }
 
