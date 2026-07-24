@@ -1,0 +1,6 @@
+{
+  "name": "Deba",
+  "description": "Local booking, appointment scheduling, client management, business calendar, and customer messaging platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
